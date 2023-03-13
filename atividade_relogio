@@ -1,0 +1,29 @@
+programa
+{
+	inclua  biblioteca Util --> u
+	inteiro segundo = 0 , minuto = 0 , hora = 0
+
+	funcao  inicio ()
+  {
+    escreva ( "Relógio: \n" )
+    cont_segundos()
+    cont_min()
+    cont_unid_hora()
+    cont_hrs()
+  }
+
+  funcao inteiro vazio conta_segundos()
+  {
+    para ( segundos inteiro = 0 ; segundos < 60 ; segundos++ )
+    segundo = segundo + 1
+    u.aguarde( 1000 )
+  }
+  cont_min()
+  {
+    se  
+
+  }
+  funcao inteiro vazio cont_min()
+  {
+    para ( horas inteiras = 0 ; horas < 60 ; horas++ )
+  }
